@@ -1,5 +1,9 @@
 # Load necessary library
 library(stats)
+# Load necessary library
+library(readr)
+# Read CSV file into a data frame
+data <- read.csv("OneDrive/SPIT College/3)Class/Semester 6/8)DA/1)Experiment/10_/loan_data_1.csv")
 
 # Assuming population parameters (replace with your actual values)
 population_mean <- 50000  # Hypothetical population mean
